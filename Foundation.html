@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="Foundation.css" />
+    <title>Foundation</title>
+  </head>
+  <body>
+    <div class="bgHeader">
+      <div class="header container">
+        <div class="nav-bar row d-none d-sm-flex">
+          <div class="logo col-6 d-flex align-items-center">
+            <div class="icon align-items-center justify-content-center d-flex">
+              <svg
+                width="33"
+                height="41"
+                viewBox="0 0 33 41"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M3.80769 17.0655V15.8014C3.80769 15.4568 4.09431 15.1694 4.44788 15.1694H28.5521C28.9072 15.1694 29.1923 15.4523 29.1923 15.8014V17.0655C26.918 17.0659 24.8765 18.0591 23.481 19.6335C22.0854 18.0586 20.0432 17.0655 17.7678 17.0655H15.2322C12.9575 17.0655 10.9156 18.0585 9.51993 19.633C8.12423 18.0585 6.08235 17.0655 3.80769 17.0655ZM31.7308 13.2732H1.26923C0.568254 13.2732 0 12.7072 0 12.0091V1.26411C0 0.565963 0.568254 0 1.26923 0H6.98077C7.68175 0 8.25 0.565963 8.25 1.26411V5.05645H11.4231V1.26411C11.4231 0.565963 11.9913 0 12.6923 0H20.3077C21.0087 0 21.5769 0.565963 21.5769 1.26411V5.05645H24.75V1.26411C24.75 0.565963 25.3183 0 26.0192 0H31.7308C32.4317 0 33 0.565963 33 1.26411V12.0091C33 12.7072 32.4317 13.2732 31.7308 13.2732ZM23.481 22.3524C24.8456 20.3087 27.1791 18.9617 29.8283 18.9617C30.5293 18.9617 31.0975 19.5277 31.0975 20.2258V39.1875C31.0975 39.8857 30.5293 40.4516 29.8283 40.4516H23.4808C22.7798 40.4516 22.2115 39.8857 22.2115 39.1875V26.5464C22.2115 23.753 19.9385 21.4899 17.1332 21.4899H15.8668C13.0622 21.4899 10.7885 23.7539 10.7885 26.5464V39.1875C10.7885 39.8851 10.2211 40.4507 9.52096 40.4516L9.52063 40.4516H3.17308C2.4721 40.4516 1.90385 39.8857 1.90385 39.1875V20.2258C1.90385 19.5277 2.4721 18.9617 3.17308 18.9617C5.822 18.9617 8.15525 20.3084 9.51993 22.3517C10.8846 20.3084 13.2179 18.9617 15.8668 18.9617H17.1332C19.783 18.9617 22.1165 20.3085 23.481 22.3524ZM24.75 34.0746L28.4131 31.237C28.4601 31.2006 28.5089 31.168 28.5591 31.1391V28.0064L24.75 30.9571V34.0746ZM24.75 27.7542L28.4131 24.9165C28.4601 24.8801 28.5089 24.8475 28.5591 24.8187V21.6163C28.5591 21.6163 28.0069 21.7446 27.2515 22.1884C25.7544 23.0679 24.75 24.6904 24.75 26.5464V27.7542ZM24.75 37.2775V37.9234H28.5591V34.3269L24.75 37.2775ZM4.44231 31.1399C4.492 31.1686 4.54033 31.201 4.58692 31.237L8.25139 34.0757V30.9581L4.44231 28.0074V31.1399ZM4.44231 24.8194C4.49202 24.8481 4.54037 24.8804 4.58698 24.9165L8.25139 27.7551V26.5464C8.25139 24.1861 6.62704 22.2034 4.44231 21.6462V24.8194ZM4.44231 34.3279V37.9234H8.25139V37.2786L4.44231 34.3279Z"
+                  fill="url(#paint0_linear)"
+                />
+                <defs>
+                  <linearGradient
+                    id="paint0_linear"
+                    x1="-13.6813"
+                    y1="18.4982"
+                    x2="23.2213"
+                    y2="51.4145"
+                    gradientUnits="userSpaceOnUse"
+                  >
+                    <stop stop-color="#3142C6" />
+                    <stop offset="1" stop-color="#AF61D1" />
+                  </linearGradient>
+                </defs>
+              </svg>
+            </div>
+            <div class="text">
+              <p class="bold">Foundation</p>
+              <p>Startup landing template</p>
+            </div>
+          </div>
+          <div class="menu d-flex col-6 align-items-center row">
+            <div class="text d-flex justify-content-around col-xl-7">
+              <p class="bold">Home</p>
+              <p>Storie</p>
+              <p>Library</p>
+            </div>
+            <div class="button col-xl-5">
+              <button>Get Started</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="Responsive d-block d-sm-none">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container-fluid">
+            <div class="icon d-flex align-items-center justify-content-center">
+              <svg
+                width="58"
+                height="58"
+                viewBox="0 0 58 58"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g filter="url(#filter0_ddi)">
+                  <rect
+                    x="5"
+                    y="2"
+                    width="48"
+                    height="48"
+                    rx="8"
+                    fill="white"
+                  />
+                  <rect
+                    x="5"
+                    y="2"
+                    width="48"
+                    height="48"
+                    rx="8"
+                    fill="url(#paint0_linear)"
+                    fill-opacity="0.1"
+                    style="mix-blend-mode: overlay"
+                  />
+                </g>
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M19.2461 23.6524V22.6411C19.2461 22.3654 19.4754 22.1355 19.7583 22.1355H39.0417C39.3257 22.1355 39.5538 22.3619 39.5538 22.6411V23.6524C37.7343 23.6527 36.1011 24.4472 34.9848 25.7068C33.8683 24.4469 32.2345 23.6524 30.4142 23.6524H28.3857C26.566 23.6524 24.9325 24.4468 23.8159 25.7064C22.6993 24.4468 21.0658 23.6524 19.2461 23.6524ZM41.5846 20.6185H17.2153C16.6546 20.6185 16.2 20.1658 16.2 19.6073V11.0113C16.2 10.4528 16.6546 10 17.2153 10H21.7846C22.3453 10 22.8 10.4528 22.8 11.0113V14.0452H25.3384V11.0113C25.3384 10.4528 25.793 10 26.3538 10H32.4461C33.0069 10 33.4615 10.4528 33.4615 11.0113V14.0452H36V11.0113C36 10.4528 36.4546 10 37.0153 10H41.5846C42.1453 10 42.6 10.4528 42.6 11.0113V19.6073C42.6 20.1658 42.1453 20.6185 41.5846 20.6185ZM34.9847 27.8819C36.0764 26.2469 37.9432 25.1694 40.0626 25.1694C40.6234 25.1694 41.078 25.6221 41.078 26.1806V41.35C41.078 41.9085 40.6234 42.3613 40.0626 42.3613H34.9846C34.4238 42.3613 33.9692 41.9085 33.9692 41.35V31.2371C33.9692 29.0024 32.1507 27.1919 29.9065 27.1919H28.8934C26.6497 27.1919 24.8307 29.0031 24.8307 31.2371V41.35C24.8307 41.9081 24.3769 42.3605 23.8167 42.3613H23.8165H18.7384C18.1776 42.3613 17.723 41.9085 17.723 41.35V26.1806C17.723 25.6221 18.1776 25.1694 18.7384 25.1694C20.8575 25.1694 22.7241 26.2467 23.8159 27.8814C24.9076 26.2467 26.7742 25.1694 28.8934 25.1694H29.9065C32.0264 25.1694 33.8932 26.2468 34.9847 27.8819ZM36 37.2597L38.9304 34.9896C38.968 34.9605 39.0071 34.9344 39.0472 34.9113V32.4051L36 34.7657V37.2597ZM36 32.2033L38.9305 29.9332C38.9681 29.9041 39.0071 29.878 39.0472 29.8549V27.2931C39.0472 27.2931 38.6055 27.3956 38.0011 27.7507C36.8035 28.4543 36 29.7523 36 31.2371V32.2033ZM36 39.822V40.3387H39.0472V37.4615L36 39.822ZM19.7538 34.912C19.7936 34.9349 19.8322 34.9608 19.8695 34.9896L22.8011 37.2606V34.7664L19.7538 32.4059V34.912ZM19.7538 29.8555C19.7936 29.8785 19.8322 29.9043 19.8695 29.9332L22.8011 32.2041V31.2371C22.8011 29.3489 21.5016 27.7627 19.7538 27.317V29.8555ZM19.7538 37.4623V40.3387H22.8011V39.8229L19.7538 37.4623Z"
+                  fill="url(#paint1_linear)"
+                />
+                <defs>
+                  <filter
+                    id="filter0_ddi"
+                    x="0"
+                    y="0"
+                    width="58"
+                    height="58"
+                    filterUnits="userSpaceOnUse"
+                    color-interpolation-filters="sRGB"
+                  >
+                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feColorMatrix
+                      in="SourceAlpha"
+                      type="matrix"
+                      values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                    />
+                    <feOffset dy="3" />
+                    <feGaussianBlur stdDeviation="2.5" />
+                    <feColorMatrix
+                      type="matrix"
+                      values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.05 0"
+                    />
+                    <feBlend
+                      mode="normal"
+                      in2="BackgroundImageFix"
+                      result="effect1_dropShadow"
+                    />
+                    <feColorMatrix
+                      in="SourceAlpha"
+                      type="matrix"
+                      values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                    />
+                    <feOffset dy="1" />
+                    <feGaussianBlur stdDeviation="1" />
+                    <feColorMatrix
+                      type="matrix"
+                      values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"
+                    />
+                    <feBlend
+                      mode="normal"
+                      in2="effect1_dropShadow"
+                      result="effect2_dropShadow"
+                    />
+                    <feBlend
+                      mode="normal"
+                      in="SourceGraphic"
+                      in2="effect2_dropShadow"
+                      result="shape"
+                    />
+                    <feColorMatrix
+                      in="SourceAlpha"
+                      type="matrix"
+                      values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                      result="hardAlpha"
+                    />
+                    <feOffset dy="1" />
+                    <feComposite
+                      in2="hardAlpha"
+                      operator="arithmetic"
+                      k2="-1"
+                      k3="1"
+                    />
+                    <feColorMatrix
+                      type="matrix"
+                      values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.1 0"
+                    />
+                    <feBlend
+                      mode="normal"
+                      in2="shape"
+                      result="effect3_innerShadow"
+                    />
+                  </filter>
+                  <linearGradient
+                    id="paint0_linear"
+                    x1="5"
+                    y1="2"
+                    x2="5"
+                    y2="50"
+                    gradientUnits="userSpaceOnUse"
+                  >
+                    <stop stop-color="white" stop-opacity="0.5" />
+                    <stop offset="1" stop-color="white" stop-opacity="0.01" />
+                  </linearGradient>
+                  <linearGradient
+                    id="paint1_linear"
+                    x1="5.25495"
+                    y1="24.7985"
+                    x2="34.777"
+                    y2="51.1316"
+                    gradientUnits="userSpaceOnUse"
+                  >
+                    <stop stop-color="#3142C6" />
+                    <stop offset="1" stop-color="#AF61D1" />
+                  </linearGradient>
+                </defs>
+              </svg>
+              <p>Foundation</p>
+            </div>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Features</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Pricing</a>
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link disabled"
+                    href="#"
+                    tabindex="-1"
+                    aria-disabled="true"
+                    >Disabled</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <div class="main container">
+        <div class="text">
+          <p class="bold">Build stunning websites & apps.</p>
+          <p>
+            Create live segments and target the right people for messages based
+            on their behaviors.
+          </p>
+        </div>
+        <div class="button">
+          <button class="bgblue">Get Started</button>
+          <button>Learn More</button>
+        </div>
+      </div>
+    </div>
+    <div class="bgQuestion">
+      <div class="questions container d-xl-flex justify-content-between">
+        <div class="question">
+          <p class="bold">What is it about?</p>
+          <p>
+            Building a website for a startup that looks amazing is not a rocket
+            science anymore.
+          </p>
+        </div>
+        <div class="question">
+          <p class="bold">Who is it for?</p>
+          <p>
+            Startups, small companies and teams, entrepreneurs and web
+            developers.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="bgFeature">
+      <div class="feature container">
+        <div class="logo row">
+          <div
+            class="img d-flex justify-content-center align-items-center col-4 col-md-3 col-lg-2"
+          >
+            <img src="img/img_index/img2.png" style="width: 104px" alt="logo" />
+          </div>
+          <div
+            class="img d-flex justify-content-center align-items-center col-4 col-md-3 col-lg-2"
+          >
+            <img src="img/img_index/img3.png" alt="logo" />
+          </div>
+          <div
+            class="img d-flex justify-content-center align-items-center col-4 col-md-3 col-lg-2"
+          >
+            <img src="img/img_index/img4.png" style="width: 43px" alt="logo" />
+          </div>
+          <div
+            class="img d-flex justify-content-center align-items-center col-4 col-md-3 col-lg-2"
+          >
+            <img src="img/img_index/img5.png" alt="logo" />
+          </div>
+          <div
+            class="img d-flex justify-content-center align-items-center col-4 col-md-3 col-lg-2"
+          >
+            <img src="img/img_index/img6.png" style="width: 76px" alt="logo" />
+          </div>
+          <div
+            class="img d-flex justify-content-center align-items-center col-4 col-md-3 col-lg-2"
+          >
+            <img src="img/img_index/img7.png" alt="logo" />
+          </div>
+        </div>
+      </div>
+      <div class="features">
+        <div class="container">
+          <div class="text">
+            <p class="green none">Feature</p>
+            <p class="green Responsive">Acquire Customers</p>
+            <p class="bold">Easily find leads and customers</p>
+            <p>
+              Send one-off and automated email, push, and in-app messages to
+              people. Create better stories.
+            </p>
+            <div class="none">
+              <div class="d-xl-flex item-1 align-items-center">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M12 0C5.376 0 0 5.376 0 12C0 18.624 5.376 24 12 24C18.624 24 24 18.624 24 12C24 5.376 18.624 0 12 0ZM12 10.68C11.268 10.68 10.68 11.268 10.68 12C10.68 12.732 11.268 13.32 12 13.32C12.732 13.32 13.32 12.732 13.32 12C13.32 11.268 12.732 10.68 12 10.68ZM4.8 19.2L14.628 14.628L19.2 4.8L9.372 9.372L4.8 19.2Z"
+                    fill="#3142C6"
+                  />
+                </svg>
+                <p>Acquire new customers</p>
+              </div>
+              <p class="small">
+                Everything you need to start building – including open-source
+                code, documentation.
+              </p>
+              <div class="rectangle-blue"></div>
+              <div class="d-xl-flex item-2 align-items-center">
+                <svg
+                  width="23"
+                  height="25"
+                  viewBox="0 0 23 25"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M0 5.95238L11.5 0L23 5.95238V8.33333H0V5.95238ZM2.42105 10.7143V19.0476H6.05263V10.7143H2.42105ZM9.68421 10.7143V19.0476H13.3158V10.7143H9.68421ZM23 21.4286V25H0V21.4286H23ZM16.9474 10.7143V19.0476H20.5789V10.7143H16.9474Z"
+                    fill="#2B292D"
+                  />
+                </svg>
+                <p>Engage users</p>
+              </div>
+              <div class="rectangle"></div>
+
+              <div class="d-xl-flex item-2 align-items-center">
+                <svg
+                  width="22"
+                  height="22"
+                  viewBox="0 0 22 22"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M19.5556 0H2.44444C1.1 0 0 1.1 0 2.44444V11C0 12.3444 1.1 13.4444 2.44444 13.4444H19.5556C20.9 13.4444 22 12.3444 22 11V2.44444C22 1.1 20.9 0 19.5556 0ZM19.5556 7.33333H14.6667C14.6667 9.31333 12.98 11 11 11C9.02 11 7.33333 9.31333 7.33333 7.33333H2.44444V2.44444H19.5556V7.33333ZM22 15.8889H14.6667C14.6667 17.9178 13.0289 19.5556 11 19.5556C8.97111 19.5556 7.33333 17.9178 7.33333 15.8889H0V19.5556C0 20.9 1.1 22 2.44444 22H19.5556C20.9 22 22 20.9 22 19.5556V15.8889Z"
+                    fill="#2B292D"
+                  />
+                </svg>
+                <p>Develop across platforms</p>
+              </div>
+              <div class="rectangle"></div>
+            </div>
+            <img class="Responsive" src="img/img_index/img9.png" alt="img" />
+            <p class="small Responsive">A better way to acquire new users</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bgQuote">
+      <div class="quote container d-xl-flex">
+        <div class="img">
+          <img src="img/img_index/img10.png" alt="img-quote" />
+          <p class="none">Connect with customers and grow faster</p>
+        </div>
+        <div class="team-inbox d-xl-flex flex-column align-items-center">
+            <div class="text">
+            <p class="red">Team Inbox</p>
+            <p class="bold">Manage conversations</p>
+            <p class="nomal">
+                One place to manage and respond to all conversations with leads and
+                users. Receive messages from leads.
+            </p>
+            <div class="quotes">
+                <div class="text ">
+                <span
+                    >“Great widgets. Great selection. Great design and
+                    <span class="bold">easy to implement.</span> Definitely a huge
+                    time saver for a web developer!”</span
+                >
+                </div>
+                <div class="profile d-flex align-items-center">
+                    <div class="img">
+                        <img src="img/img_index/img11.png" alt="" />
+                    </div>
+                    <div class="text">
+                        <p class="bold">Viella Malkovich</p>
+                        <p>Creative Director at Johnson</p>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+      </div>
+    </div>
+    <div class="featries container">
+        <div class="main d-xl-flex justify-content-between">
+            <div class="text">
+                <p class="blue">Communicate Better</p>
+                <p class="bold">Built for busy small teams</p>
+                <p>Three products that can be used independently or combined together for your company’s needs.</p>
+                <button>Get Started</button>
+            </div>
+            <div class="img">
+                <img src="img/img_index/img12.png" alt="img-featries">
+                <p class="small">A better way to acquire new users</p>
+            </div>
+        </div>
+        <div class="rectangle"></div>
+        <div class="items d-xl-flex justify-content-between">
+            <div class="item">
+                <div class="span">
+                    <span class="bold">Subscriptions. </span><span>Foundation works with the tools and services you already use every day.</span>
+                </div>
+                <a href="">Learn more about subscriptions</a>
+            </div>
+            <div class="item">
+                <div class="span">
+                    <span class="bold">Felxible Hours. </span><span>Get started with our simple snippet of JavaScript or easy to install SDKs for iOS and Android.</span>
+                </div>
+                <a href="">Get more info about hours</a>
+            </div>
+            <div class="item">
+                <div class="span">
+                    <span class="bold">Fast Communication. </span><span>We offer measures like 2FA and SSO to ensure the safety of your data.</span>
+                </div>
+                <a href="">Communication guidelines</a>
+            </div>
+        </div>
+    </div>
+    <div class="bgCategories">
+        <div class="block-categories d-flex flex-column align-items-center container">
+            <p class="small">Engage Visitors</p>
+            <p class="bold">Understand your audience</p>
+            <p>Early stage company? Eligible applicants get all of our products for just $49 a month.</p>
+            <div class="button d-xl-flex">
+                <button class="button-blue">Get Started</button>
+                <button>Learn More</button>
+            </div>
+            <div class="categories d-xl-flex justify-content-around">
+                <div class="item d-flex flex-column align-items-center justify-content-around">
+                    <img src="img/img_index/category-1.png" alt="img-categories-1">
+                    <p>Developers</p>
+                </div>
+                <div class="item item-blue d-flex flex-column align-items-center justify-content-around">
+                    <img src="img/img_index/category-2.png" alt="img-categories-2">
+                    <p>Entertainment</p>
+                </div>
+                <div class="item d-flex flex-column align-items-center justify-content-around">
+                    <img src="img/img_index/category-3.png" alt="img-categories-3">
+                    <p>Athletes</p>
+                </div>
+                <div class="item d-flex flex-column align-items-center justify-content-around">
+                    <img src="img/img_index/category-4.png" alt="img-categories-4">
+                    <p>creators</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="logo row">
+          <div
+            class="img d-flex justify-content-center align-items-center col-4 col-md-3 col-lg-2"
+          >
+            <img src="img/img_index/img2.png" style="width: 104px" alt="logo" />
+          </div>
+          <div
+            class="img d-flex justify-content-center align-items-center col-4 col-md-3 col-lg-2"
+          >
+            <img src="img/img_index/img3.png" alt="logo" />
+          </div>
+          <div
+            class="img d-flex justify-content-center align-items-center col-4 col-md-3 col-lg-2"
+          >
+            <img src="img/img_index/img4.png" style="width: 43px" alt="logo" />
+          </div>
+          <div
+            class="img d-flex justify-content-center align-items-center col-4 col-md-3 col-lg-2"
+          >
+            <img src="img/img_index/img5.png" alt="logo" />
+          </div>
+          <div
+            class="img d-flex justify-content-center align-items-center col-4 col-md-3 col-lg-2"
+          >
+            <img src="img/img_index/img6.png" style="width: 76px" alt="logo" />
+          </div>
+          <div
+            class="img d-flex justify-content-center align-items-center col-4 col-md-3 col-lg-2"
+          >
+            <img src="img/img_index/img7.png" alt="logo" />
+          </div>
+        </div>
+    </div>
+    <div class="bgReview">
+        <div class="review container d-flex flex-column align-items-center">
+           <p class="blue">Trusted by the world’s most innovative businesses – big and small</p> 
+           <p>“Comprehensive set of startup tools for all imaginable entrepreneurial needs. Create landing pages, send emails, find freelancers. Perfect for sales, marketing, and support”</p>
+           <p class="bold">Viella Malkovich</p>
+           <p class="small">Creative Director at Johnson</p>
+        </div>
+        <div class="svg container d-flex align-items-center justify-content-center">
+            <svg width="50" height="8" viewBox="0 0 50 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path opacity="0.2" d="M46 8C48.2091 8 50 6.20914 50 4C50 1.79086 48.2091 0 46 0C43.7909 0 42 1.79086 42 4C42 6.20914 43.7909 8 46 8Z" fill="#2B292D"/>
+<path opacity="0.2" d="M25 8C27.2091 8 29 6.20914 29 4C29 1.79086 27.2091 0 25 0C22.7909 0 21 1.79086 21 4C21 6.20914 22.7909 8 25 8Z" fill="#2B292D"/>
+<path d="M4 8C6.20914 8 8 6.20914 8 4C8 1.79086 6.20914 0 4 0C1.79086 0 0 1.79086 0 4C0 6.20914 1.79086 8 4 8Z" fill="#3142C5"/>
+            </svg>
+        </div>
+    </div>
+    <div class="rectangle"></div>
+    <div class="container">
+        <div class="hiring d-xl-flex flex-column align-items-center">
+            <p class="bold">We’re hiring</p>
+            <p>We’re a team of lifelong learners. We’re equal parts left and right brained.</p>
+            <button>More about Company</button>
+            <div class="jobs">
+                <div class="job job-blue d-flex justify-content-around align-items-center">
+                    <div class="text d-xl-flex justify-content-between">
+                        <p class="bold">Front-End Developer</p>
+                        <p>Los Angeles / Remote</p>
+                    </div>
+                    <div class="svg d-flex justify-content-center align-items-center">
+                        <svg class="none" width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0 10.59L4.58 6L0 1.41L1.41 0L7.41 6L1.41 12L0 10.59Z" fill="white"/>
+                        </svg>
+                        <svg class="Responsive" width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path opacity="0.6" d="M0 10.59L4.58 6L0 1.41L1.41 0L7.41 6L1.41 12L0 10.59Z" fill="#2C3241"/>
+                        </svg>
+                    </div>
+                </div>
+                <div class="job d-flex justify-content-around align-items-center">
+                    <div class="text d-xl-flex justify-content-between">
+                        <p class="bold">Community Manager</p>
+                        <p>New York / Full-Time</p>
+                    </div>
+                    <div class="svg d-flex justify-content-center align-items-center">
+                        <svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path opacity="0.6" d="M0 10.59L4.58 6L0 1.41L1.41 0L7.41 6L1.41 12L0 10.59Z" fill="#2C3241"/>
+                        </svg>
+                    </div>
+                </div>
+                <div class="job d-flex justify-content-around align-items-center">
+                    <div class="text d-xl-flex justify-content-between">
+                        <p class="bold">UX/UI Designer</p>
+                        <p>New York / Full-Time</p>
+                    </div>
+                    <div class="svg d-flex justify-content-center align-items-center">
+                        <svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path opacity="0.6" d="M0 10.59L4.58 6L0 1.41L1.41 0L7.41 6L1.41 12L0 10.59Z" fill="#2C3241"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bgCTA">
+        <div class="container">
+            <div class="CTA row">
+                <div class="img d-flex justify-content-center align-items-center col-12 col-xl-5">
+                    <img src="img/img_CTA/img.png" alt="img">
+                </div>
+                <div class="text col-12 col-xl-7">
+                    <p class="bold">Start your free trial.</p>
+                    <p>Get notified about company updates, news and blog posts. We hate spam.</p>
+                    <div class="input d-flex row">
+                        <input class="col-xl-6 col-12" type="text" placeholder="Enter your email"><button class="col-xl-6 col-12">Get Started</button>
+                    </div>
+                    <p><span>Free 14-day trial · Easy setup · Cancel any time. Check out </span> <span class="blue">Terms of Use.</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer container">
+        <div class="text row">
+            <div class="foundation col-xl-5 col-12">
+                <div class="logo d-flex align-items-center">
+                    <div class="icon d-flex justify-content-center align-items-center">
+                        <svg width="33" height="41" viewBox="0 0 33 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M31.7308 13.2732H1.26923C0.568254 13.2732 0 12.7072 0 12.0091V1.26411C0 0.565963 0.568254 0 1.26923 0H6.98077C7.68175 0 8.25 0.565963 8.25 1.26411V5.05645H11.4231V1.26411C11.4231 0.565963 11.9913 0 12.6923 0H20.3077C21.0087 0 21.5769 0.565963 21.5769 1.26411V5.05645H24.75V1.26411C24.75 0.565963 25.3183 0 26.0192 0H31.7308C32.4317 0 33 0.565963 33 1.26411V12.0091C33 12.7072 32.4317 13.2732 31.7308 13.2732ZM3.80769 17.0655V15.8014C3.80769 15.4568 4.09431 15.1694 4.44788 15.1694H28.5521C28.9072 15.1694 29.1923 15.4523 29.1923 15.8014V17.0655C26.918 17.0659 24.8765 18.0591 23.481 19.6335C22.0854 18.0586 20.0432 17.0655 17.7678 17.0655H15.2322C12.9575 17.0655 10.9156 18.0585 9.51993 19.633C8.12423 18.0585 6.08235 17.0655 3.80769 17.0655ZM29.8283 18.9617C27.1791 18.9617 24.8456 20.3087 23.481 22.3524C22.1165 20.3085 19.783 18.9617 17.1332 18.9617H15.8668C13.2179 18.9617 10.8846 20.3084 9.51993 22.3517C8.15525 20.3084 5.822 18.9617 3.17308 18.9617C2.4721 18.9617 1.90385 19.5277 1.90385 20.2258V39.1875C1.90385 39.8857 2.4721 40.4516 3.17308 40.4516H9.52063L9.52096 40.4516C10.2211 40.4507 10.7885 39.8851 10.7885 39.1875V26.5464C10.7885 23.7539 13.0622 21.4899 15.8668 21.4899H17.1332C19.9385 21.4899 22.2115 23.753 22.2115 26.5464V39.1875C22.2115 39.8857 22.7798 40.4516 23.4808 40.4516H29.8283C30.5293 40.4516 31.0975 39.8857 31.0975 39.1875V20.2258C31.0975 19.5277 30.5293 18.9617 29.8283 18.9617ZM24.75 34.0746L28.4131 31.237C28.4601 31.2006 28.5089 31.168 28.5591 31.1391V28.0064L24.75 30.9571V34.0746ZM28.4131 24.9165L24.75 27.7542V26.5464C24.75 24.6904 25.7544 23.0679 27.2515 22.1884C28.0069 21.7446 28.5591 21.6163 28.5591 21.6163V24.8187C28.5089 24.8475 28.4601 24.8801 28.4131 24.9165ZM24.75 37.2775V37.9234H28.5591V34.3269L24.75 37.2775ZM4.58692 31.237C4.54033 31.201 4.492 31.1686 4.44231 31.1399V28.0074L8.25139 30.9581V34.0757L4.58692 31.237ZM4.44231 24.8194C4.49202 24.8481 4.54037 24.8804 4.58698 24.9165L8.25139 27.7551V26.5464C8.25139 24.1861 6.62704 22.2034 4.44231 21.6462V24.8194ZM4.44231 37.9234V34.3279L8.25139 37.2786V37.9234H4.44231Z" fill="white"/>
+                        </svg>
+                    </div>                 
+                    <div class="text">
+                        <p class="bold">Foundation</p>
+                        <p>Startup landing template</p>
+                    </div>
+                </div>
+                <p class="text">Foundation is a website template for startups and small teams. It helps to build a website in no time.</p>
+                <div class="img">
+                <img src="img/img_footer/img-1.png" alt="AppStore_img">
+                <img src="img/img_footer/img-2.png" alt="GooglePlay_img">
+                </div>
+            </div>
+            <div class="product col-xl-3 col-12">
+                <p class="bold">Product</p>
+                <div class="text">
+                    <p>Acquire user</p>                    <p>Content Marketing</p>
+                    <p>Website Templates</p>
+                    <p>Customer Management</p>
+                    <p>Virtual Inbox</p>
+                </div>
+            </div>
+            <div class="company col-xl-4 col-12">
+                <p class="bold">Company</p>
+                <div class="text">
+                    <p>About Foundation</p>
+                    <p>Brand Guidelines</p>
+                    <p>Press Kit</p>
+                    <p>Support</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="rectangle"></div>
+    <div class="textAndIcon container d-xl-flex justify-content-between">
+      <div class="text d-flex justify-content-around align-items-center">
+        <p>Terms</p>
+        <p>Privacy</p>
+        <p>License</p>
+      </div>
+      <div class="icon d-flex justify-content-around align-items-center">
+        <img src="img/img_footer/icon-twitter.png" alt="icon">
+        <img src="img/img_footer/icon-fb.png" alt="icon">
+        <img src="img/img_footer/LinkedIn.png" alt="icon">
+      </div>
+    </div>
+  </body>
+</html>
