@@ -177,7 +177,7 @@ button {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  background-image: url(img/img1.png);
+  background-image: url(/img/img_index//img1.png);
   background-position: right;
   background-size: contain;
   background-repeat: no-repeat;
@@ -1151,7 +1151,7 @@ button {
   display: flex;
   background: url(img/Review.png);
   background-repeat: no-repeat;
-  background-position:bottom;
+  background-position: bottom;
   background-position-x: right;
 }
 .review .text {
@@ -1630,15 +1630,15 @@ button {
   width: 100%;
   margin-top: 47px;
 }
-.footer .respon{
+.footer .respon {
   display: none;
 }
- .textAndIcon {
+.textAndIcon {
   margin-top: 13px;
   display: flex;
   justify-content: space-between;
 }
- .textAndIcon .text {
+.textAndIcon .text {
   width: 180px;
   padding-top: 0px;
   display: flex;
@@ -1711,24 +1711,24 @@ button {
   .footer .text .productNcompany .bold {
     padding-bottom: 18px;
   }
-   .textAndIcon {
+  .textAndIcon {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
     width: 100%;
     padding-top: 15px;
   }
-   .textAndIcon .text {
+  .textAndIcon .text {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     width: 290px;
     margin: 0 auto;
   }
-   .textAndIcon .text p {
+  .textAndIcon .text p {
     margin-right: 25px;
   }
-   .textAndIcon .icon {
+  .textAndIcon .icon {
     padding-top: 31px;
     width: 290px;
     margin: 0 auto;
@@ -1737,7 +1737,7 @@ button {
     justify-content: flex-start;
     width: 290px;
   }
-   .textAndIcon .icon img {
+  .textAndIcon .icon img {
     margin-right: 20px;
   }
 }
